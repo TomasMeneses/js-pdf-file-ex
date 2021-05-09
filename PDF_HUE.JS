@@ -24,5 +24,10 @@ doc.text(47, 130, tecnologia)
 var qtdModulos = '10';
 doc.text(20, 136, 'Quantidade de Moudulos:')
 doc.text(78, 136, qtdModulos)
+doc.setFontSize(10)
+var dataInicio = '11/06/1996';
+doc.text(170, 16, dataInicio)
+var dataFim = '11/06/1996';
+doc.text(170, 25, dataFim)
 
 
